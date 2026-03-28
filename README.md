@@ -1,4 +1,4 @@
-# Trackio
+# ResumeAI
 
 A simple app that helps you create resumes quickly. You can enter your personal details, education, work experience, and skills, and the app will generate a clean, professional-looking resume.
 It also uses AI to help write or improve your professional summary so it sounds better. You can export your resume as a PDF and share it easily.
