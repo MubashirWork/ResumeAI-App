@@ -21,37 +21,37 @@ The app is built with Flutter, so it works on both Android and iOS. It’s usefu
 
 When the app starts, a simple splash screen with the app logo and title is shown for a moment. After that, the user is taken to the home screen where they can either create a new resume or open previously saved resumes. This screen acts as the main starting point of the app.
 
-<img src="assets/screenshots/splash_home.png" height="500" />
+<img src="assets/images/screenshots/splash_home.png" height="500" />
 
 ### Resume Details Form 
 
 Users can enter their personal information, education, skills, experience, and other details through a structured form. Basic validation helps ensure the required fields are filled correctly. Once the information is submitted, the app sends the data to the AI service to generate a structured resume.
 
-<img src="assets/screenshots/form.png" height="500" />
+<img src="assets/images/screenshots/form.png" height="500" />
 
 ### Template Preview & Resume Generation 
 
 After entering the resume details, users can browse and preview different resume templates. Once a template is selected, the app generates the resume using AI and shows a short loading screen while the content is being prepared.
 
-<img src="assets/screenshots/template_loading.png" height="500" />
+<img src="assets/images/screenshots/template_loading.png" height="500" />
 
 ### Classic Professional & Simple Clean Preview 
 
 After choosing a template, the resume is generated and shown as a PDF preview inside the app. The screenshot shows two available designs: Classic Professional, which has a centered and formal layout, and Simple Clean, which presents information in a minimal and easy-to-read format. Users can review the resume, download it as a PDF, or go back to edit their details if needed.
 
-<img src="assets/screenshots/classic_simple.png" height="500" />
+<img src="assets/images/screenshots/classic_simple.png" height="500" />
 
 ### Modern Minimal & Clean Edge Preview
 
 The app includes multiple resume designs to suit different preferences. Modern Minimal focuses on a centered layout with clear section headers and a clean modern style. Clean Edge uses a structured layout with highlighted headings and organized sections for better readability.
 
-<img src="assets/screenshots/modern_clean.png" height="500" />
+<img src="assets/images/screenshots/modern_clean.png" height="500" />
 
 ### Midnight Template & Saved Resumes 
 
 The Midnight Resume template provides a darker, modern layout with a highlighted header section and organized resume content. The app also includes a My Resumes screen where users can view all previously created resumes, reopen them, edit their information, or delete resumes they no longer need.
 
-<img src="assets/screenshots/midnight_myresume.png" height="500" />
+<img src="assets/images/screenshots/midnight_myresume.png" height="500" />
 
 ## Technology Stack
 
@@ -67,7 +67,7 @@ The Midnight Resume template provides a darker, modern layout with a highlighted
 - **Secrets:** AppSecret
 
 ### Local Storage 
-- SQLite: Save resumes locally
+- **SQFLite:** Save resumes locally
 
 ### Pdf & Export 
 - **Packages:** pdf, printing
